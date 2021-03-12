@@ -4,3 +4,20 @@
     background-image: linear-gradient(315deg, #2b1331 0%, #b9abcf 74%);
     padding:2em;
 }
+
+.mainCard, .bottomCard {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.bottomCard div {
+    display: flex;
+    gap: 1em;
+    width: 55%;
+    justify-content: space-around;
+}
